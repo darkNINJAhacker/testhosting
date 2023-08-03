@@ -1,1 +1,1 @@
-# testhosting
+# TESTHOSTING
