@@ -1,0 +1,84 @@
+body {
+    background-image: url(baza.jpg);
+    background-size: cover;
+    position: center
+}
+
+body, h1, ul {
+    margin: 0;
+    padding: 0
+}
+
+.container h1 a {
+    text-decoration: none;
+    color: white
+}
+
+#header {
+    background-image: url(background1.jpg);
+    background-size: cover;
+    background-position: bottom right ;
+    border-bottom: 10px solid blue
+    
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+#header h1 {
+    font-family: sans-serif;
+    padding: 25px 0;
+    font-size: 50px
+}
+
+#navbar ul {
+    margin-left: 2.95%;
+    margin-right: 2.9%;
+    border-left: 5px solid darkblue;
+    border-right: 5px solid darkblue;
+    border-bottom: 5px solid darkblue;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.6)
+}
+
+#navbar ul:first-child {
+    padding: 15px
+}
+
+#navbar ul li {
+    list-style-type: none;
+    text-align: center;
+    padding: 15px
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: cursive;
+    color: white
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-bottom: 0;
+    border: 5px solid darkblue;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white
+}
+
+.copy {
+    margin-bottom: 0;
+    margin-top: 42px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px
+}
